@@ -16,7 +16,6 @@
   "n_layer": 24,
   "num_attention_heads": 16,
   "offset_alibi": 100,
-  "pretraining_pp": 1,
   "pretraining_tp": 1,
   "seq_length": 2048,
   "skip_bias_add": true,
