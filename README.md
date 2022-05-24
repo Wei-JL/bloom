@@ -2,6 +2,8 @@
 license: other
 ---
 
+# <span style="color:red"><b>WARNING:</b> This is an <b>intermediary checkpoint</b>. It is not fully trained yet. You might want to use [Bloom-1B3](https://huggingface.co/bigscience/bloom-1b3) if you want a model that has completed training.</span>
+
 # <p>BLOOM LM<br/> _BigScience Large Open-source Open-access Multilingual Language Model_ <br/>Model Card</p>
 ![BigScience Logo](https://assets.website-files.com/6139f3cdcbbff3a68486761d/613cd8997b270da063e230c5_Tekengebied%201-p-500.png)
 
