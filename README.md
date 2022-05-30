@@ -122,11 +122,11 @@ Please see [the BLOOM training README](https://github.com/bigscience-workshop/bi
 
 * ALiBI positional encodings (see [paper](https://arxiv.org/pdf/2108.12409.pdf)), with GeLU activation functions
 
-* 176 billion parameters:
+* 350 million parameters:
 
-    * 70 layers, 112 attention heads
+    * 24 layers, 16 attention heads
 
-    * Hidden layers are 14336-dimensional
+    * Hidden layers are 1024-dimensional
 
     * Sequence length of 2048 tokens used (see [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer), [tokenizer description](#tokenization))
 
