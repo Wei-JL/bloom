@@ -49,6 +49,7 @@ language:
 - zhs
 - zht
 - zu
+pipeline_tag: text-generation
 ---
 
 # <span style="color:red"><b>WARNING:</b> This is an <b>intermediary checkpoint</b>. It is not fully trained yet. You might want to use [Bloom-1B3](https://huggingface.co/bigscience/bloom-1b3) if you want a model that has completed training.</span>
