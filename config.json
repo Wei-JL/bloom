@@ -1,6 +1,9 @@
 {
   "apply_residual_connection_post_layernorm": false,
   "attention_dropout": 0.0,
+  "architectures": [
+    "BloomModel"
+  ],
   "attention_softmax_in_fp32": true,
   "bias_dropout_fusion": true,
   "bos_token_id": 1,
@@ -22,7 +25,7 @@
   "seq_length": 2048,
   "skip_bias_add": true,
   "skip_bias_add_qkv": false,
-  "transformers_version": "4.20.0.dev0",
+  "transformers_version": "4.20.0",
   "use_cache": true,
   "vocab_size": 250880
 }
