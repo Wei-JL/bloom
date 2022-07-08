@@ -54,9 +54,10 @@ pipeline_tag: text-generation
 
 # <span style="color:red"><b>WARNING:</b> This is an <b>intermediary checkpoint</b>. It is not fully trained yet. You might want to use [Bloom-1B3](https://huggingface.co/bigscience/bloom-1b3) if you want a model that has completed training.</span>
 
-# <p>BLOOM LM<br/> _BigScience Large Open-science Open-access Multilingual Language Model_ <br/>Model Card</p>
-<img src="https://assets.website-files.com/6139f3cdcbbff3a68486761d/613cd8997b270da063e230c5_Tekengebied%201-p-500.png" alt="BigScience Logo" width="200"/>
-
+<h1 style='text-align: center '>BLOOM LM</h1> 
+<h2 style='text-align: center '><em>BigScience Large Open-science Open-access Multilingual Language Model</em> </h2> 
+<h3 style='text-align: center '>Model Card</h3>
+<img src="https://s3.amazonaws.com/moonup/production/uploads/1657124309515-5f17f0a0925b9863e28ad517.png" alt="BigScience Logo" width="800" style="margin-left:'auto' margin-right:'auto' display:'block'"/>
 
 Version 1.0 / 26.May.2022
 
