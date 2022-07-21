@@ -52,8 +52,6 @@ language:
 pipeline_tag: text-generation
 ---
 
-# <span style="color:red"><b>WARNING:</b> This is an <b>intermediary checkpoint</b>. It is not fully trained yet. You might want to use [Bloom-1B3](https://huggingface.co/bigscience/bloom-1b3) if you want a model that has completed training.</span>
-
 <h1 style='text-align: center '>BLOOM LM</h1> 
 <h2 style='text-align: center '><em>BigScience Large Open-science Open-access Multilingual Language Model</em> </h2> 
 <h3 style='text-align: center '>Model Card</h3>
