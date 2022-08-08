@@ -122,13 +122,15 @@ Please see [the BLOOM training README](https://github.com/bigscience-workshop/bi
 
 * ALiBI positional encodings (see [paper](https://arxiv.org/pdf/2108.12409.pdf)), with GeLU activation functions
 
-* 350 million parameters:
+* 559,214,592 parameters:
+
+    * 256,901,120 embedding parameters
 
     * 24 layers, 16 attention heads
 
     * Hidden layers are 1024-dimensional
 
-    * Sequence length of 2048 tokens used (see [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer), [tokenizer description](#tokenization))
+    * Sequence length of 2048 tokens (see [BLOOM tokenizer](https://huggingface.co/bigscience/tokenizer), [tokenizer description](#tokenization))
 
 **Objective Function:** Cross Entropy with mean reduction (see [API documentation](https://pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html#torch.nn.CrossEntropyLoss)).
     
@@ -165,18 +167,9 @@ Please see [the BLOOM training README](https://github.com/bigscience-workshop/bi
 
 #### **Training**
 
- 
-_In progress._
+Training logs: [Tensorboard link](https://huggingface.co/bigscience/tr11e-350M-logs)
 
-Current training logs: [Tensorboard link](https://huggingface.co/tensorboard/bigscience/tr11-176B-ml-logs/)
-
-- Checkpoint size:
-    
-    - Bf16 weights: 329GB
-    
-    - Full checkpoint with optimizer states: 2.3TB
-
-- Training throughput: About 150 TFLOP per GPU per second
+- Training throughput: About 150 TFLOPs per GPU
 
 - Number of epochs: 1 (*current target*)
 
@@ -184,9 +177,9 @@ Current training logs: [Tensorboard link](https://huggingface.co/tensorboard/big
     
     - Started 11th March, 2022 11:42am PST
 
-    - Estimated end: 5th July, 2022
+    - Ended 5th July, 2022
 
-- Estimated cost of training: Equivalent of $2-5M in cloud computing (including preliminary experiments)
+- Estimated cost of training: Equivalent of $2-5M in cloud computing (including preliminary experiments and other model sizes)
 
 - Server training location: Île-de-France, France
 
