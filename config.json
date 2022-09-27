@@ -21,7 +21,6 @@
   "num_attention_heads": 16,
   "offset_alibi": 100,
   "pretraining_tp": 1,
-  "seq_length": 2048,
   "skip_bias_add": true,
   "skip_bias_add_qkv": false,
   "transformers_version": "4.20.0",
